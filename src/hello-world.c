@@ -1,6 +1,3 @@
-// Simple C program to display "Hello World"
-
-// Header file for input output functions
 #include <stdio.h>
 
 // main function -
@@ -9,7 +6,7 @@ int main()
 {
 
     // prints hello world
-    printf("Hello World");
+    printf("Welcome to the world of C!");
 
     return 0;
 }
