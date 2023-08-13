@@ -5,9 +5,15 @@
 int main()
 {
     // prints hello world
-    for (int i = 0; i < 10; i++)
+
+    for (int i = 0; i < 5; i++)
     {
-        printf("Welcome to the world of C!");
+        for (int j = 0; j <= i; j++)
+        {
+            printf("* ");
+        }
+        printf("\n");
     }
+
     return 0;
 }
